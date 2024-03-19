@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Escáner",
+    "slug": "dkescaner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "uy.byg.dk.dkescaner",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "uy.byg.dk.dkescaner",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85d14f1f-0714-4ca7-b9cb-a37d3ed5a129"
+      }
+    }
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  }
+}
